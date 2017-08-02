@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( document ).tooltip();
+        } );
+    </script>
+</head>
+<body>
+<section>
+
+    <div class="formDiv">
+
+        <div style="text-align: center; font-size: 20px;" id="display"></div>
+
+        <h2>Enter the system</h2>
+
+        <p>It is neccessary to login inyour account in order to sign up for the course</p>
+
+        <div class="registration">
+
+            <h3>Are you new? <span>Register</span></h3>
+            <form class="form" method="get" action="" onsubmit="return store(this);">
+                <input type="text" class="name" title="“please write your user name”" id="name" placeholder="Username" required>
+
+                <input type="email" class="email" title="please write your email id" id="email" placeholder="Email" required>
+
+                <input type="password" class="password" title="please write your password" id="password" placeholder="Password" required>
+
+                <input style="padding: 0;height: 50px;font-size: 17px;width: 175px;" type="submit" class="btn btn-register" value="Register"/>
+            </form>
+        </div>
+
+    </div>
+
+</section>
+<script>
+
+</script>
+</body>
+</html>
